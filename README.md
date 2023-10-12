@@ -50,4 +50,13 @@ Sinta-se à vontade para contribuir com melhorias, correções de bugs ou adicio
 
 
 <h3>Licença</h3>
-Este projeto é licenciado sob a Sua Licença, se aplicável.
+Este projeto é livre
+
+
+<strong>Nota:</strong> Este é um projeto de exemplo e não inclui todas as funcionalidades de segurança ou implementações em um aplicativo de registro real. Certifique-se de considerar as melhores práticas de segurança ao implementar em um ambiente de produção.
+
+<code>
+
+Lembre-se de personalizar o README com as informações específicas do seu projeto, como detalhes sobre o seu servidor back-end, informações de licença e outros detalhes relevantes. Isso ajudará outros desenvolvedores a entender e usar o seu projeto com facilidade.
+
+</code>
