@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Cadastro</h1>
+  <form id="registration-form">
+    <div class="form-group">
+      <label for="full-name">Nome completo:</label>
+      <input type="text" id="full-name" name="full-name" required>
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <div class="form-group">
+      <label for="confirm-password">Confirmar senha:</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+    </div>
+    <div class="form-group">
+      <label for="security-question">Pergunta de segurança:</label>
+      <select id="security-question" name="security-question">
+        <option value="1">Qual o nome do seu primeiro animal de estimação?</option>
+        <option value="2">Local onde nasceu?</option>
+        <option value="3">Nome do meio da sua mãe</option>
+        <option value="4">Qual nome do seu primeiro amor?</option>
+        <option value="5">Algum Local, cidade ou monumento</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="security-answer">Resposta à pergunta de segurança:</label>
+      <input type="text" id="security-answer" name="security-answer" required>
+    </div>
+    <div class="form-group">
+      <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY"></div>
+    </div>
+    <div class="form-group">
+      <button id="submit-button" type="submit" disabled>Registrar</button>
+    </div>
+  </form>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="script.js"></script>
+</body>
+</html>
